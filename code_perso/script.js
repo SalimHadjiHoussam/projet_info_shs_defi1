@@ -19,7 +19,7 @@ const femme = [];
                 femme.push(i.femmes);
             };
             
-            
+             creegraphique();
         }
     }
     xhr.send();
