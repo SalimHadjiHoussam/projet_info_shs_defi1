@@ -24,7 +24,8 @@ const femme = [];
     }
     xhr.send();
 
-const data1 = {
+function creegraphique(){
+    const data1 = {
     labels : anne_univ,
     datasets : [
         {
@@ -71,3 +72,5 @@ const myChart1 = new  Chart(
     document.querySelector('#myChart1'),
     config1
 );
+
+}
