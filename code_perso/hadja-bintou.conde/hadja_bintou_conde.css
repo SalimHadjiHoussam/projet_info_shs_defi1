@@ -1,0 +1,61 @@
+/* Style général pour que ma page soit propre */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+}
+
+.page-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    background: white;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* Je crée l'espacement pour mes graphiques superposés */
+.section-graphique {
+    margin-bottom: 100px;
+}
+
+/* Je force la hauteur très grande des graphiques */
+.zone-canvas {
+    position: relative;
+    height: 550px;
+    width: 100%;
+}
+
+/* Mon cadre de conclusion bien précis */
+.cadre-conclusion {
+    border: 2px solid #00c7c1; /* Bordure turquoise MIASHS */
+    background-color: #e0fcfb; /* Fond très léger turquoise */
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 50px;
+    line-height: 1.6;
+}
+
+.cadre-conclusion h3 {
+    margin-top: 0;
+    color: #008b86;
+    text-decoration: underline;
+}
+
+/* Style de mon footer en bas de page */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #333;
+    color: white;
+    margin-top: 50px;
+    font-size: 0.9em;
+}
+
+.nav-link {
+    display: block;
+    margin: 20px;
+    color: #00c7c1;
+    text-decoration: none;
+    font-weight: bold;
+}
